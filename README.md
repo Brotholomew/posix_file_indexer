@@ -3,7 +3,7 @@
 <h3>1. Purpose</h3>
 This project was developed as part of my education in the field of C-programs for unix-like systems.
 Its main goal is to traverse the file tree in a specified directory and scan for files of strictly defined types.
-The program does create a `dictionary` - like structure, however it is not efficient or optimised.
+The program does create a dictionary-like structure, however it is not efficient or optimised.
 The project does not focus on any advanced data structures, in fact, this aspect is completely omitted and neglected.
 
 <h3>2. Prerequisites</h3>
@@ -15,11 +15,14 @@ The project does not focus on any advanced data structures, in fact, this aspect
 </ul>
 
 <h3>3. Installation</h3>
+
 ```
 cd proj_folder
 make
 ```
-<b>WARNNG!</b><br>
+
+<b>WARNING!</b><br>
+
 Some linkers will throw errors because of the `-lpthread` flag. If that is happening in your case as well, try this command: 
 ```
 gcc -o mole -std=gnu99 -Wall -lm mole.c priority_queue.c globals.c index.c stack.c -lpthread 
