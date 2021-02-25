@@ -32,6 +32,7 @@ If there are still some errors try substituting `-lpthread` with `-pthread`.
 
 <h4>4. Usage</h4>
 Start the indexing program with:
+
 ```
 mole -d <directory> [-f <index-file>] [-t <time interval for periodic indexing>]
 ```
